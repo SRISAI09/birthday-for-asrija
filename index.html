@@ -302,6 +302,72 @@ margin-bottom:25px;
 
 }
 
+.photo-box{
+display:flex;
+justify-content:center;
+margin:25px 0;
+}
+
+.photo-box img{
+
+width:270px;
+max-width:90%;
+
+border-radius:25px;
+
+padding:8px;
+
+background:linear-gradient(45deg,#FFD700,#FF69B4,#87CEFA,#FFD700);
+
+background-size:300% 300%;
+
+animation:photoFloat 4s ease-in-out infinite,
+borderGlow 6s linear infinite;
+
+
+box-shadow:
+0 0 20px rgba(255,255,255,.6),
+0 0 40px rgba(255,105,180,.4);
+
+}
+}
+
+.cute-text{
+font-size:18px;
+line-height:1.9;
+text-align:center;
+color:white;
+margin:25px 0;
+text-shadow:0 0 10px rgba(255,255,255,.5);
+}
+
+@keyframes photoFloat{
+
+0%,100%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+}
+
+@keyframes borderGlow{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
 </style>
 
 </head>
@@ -366,7 +432,35 @@ and may happiness always stay by your side. 💖
 <h1>
 🌙 Our Beautiful Beginning
 </h1>
+<div class="photo-box">
+    <img src="Asrija_Childhood_Portrait.jpg" alt="Little Asrija">
+</div>
 
+<p class="cute-text">
+
+👶 Look at this little superstar... 😎✨
+
+<br><br>
+
+A tiny girl with the cutest smile,
+wearing cool sunglasses,
+standing confidently beside her furry friend. 🐶💛
+
+<br><br>
+
+Little did she know that one day...
+she would grow into someone who would fill my life with endless happiness,
+beautiful memories,
+and countless smiles. ❤️🥹
+
+<br><br>
+
+From this adorable little princess 👑
+to the wonderful person you are today...
+
+You'll always have the same beautiful smile that brightens my world. 🌸💖
+
+</p>
 <p>
 
 ✨ It was...
